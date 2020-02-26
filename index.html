@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Home Page</title>
+
+	<script type="text/javascript">
+		
+		function login(){
+			document.getElementById("log").style.display="block";
+		}
+
+		function cross(){
+			document.getElementById("log").style.display="none";
+		}
+	</script>
+</head>
+<body>
+<ul>
+	<div class="header">
+  <li><a href="#default" class="logo">I-NSURED</a>
+  <div class="header-right">
+  	<li>     </li>
+  <li><a href="index.html" class="active">Home</a></li>
+   <li><a class="active" href="#login" onclick="login()">Login</a></li>
+ <!--  <li><a href="login.html">Login</a></li>
+  -->
+<!-- <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a> -->
+
+  
+<!-- </li> -->
+   <li><a href="More Information.html" class="active">More</a></li>
+  <li><a href="about.html" class="active">About US</a></li>
+</ul>
+</div>
+
+
+
+<div  class="loginform" id="log">
+	<img src="cross.jpg" class="img" onclick="cross()">
+
+<table class="table" cellspacing="15px">
+	<caption class="caption"><img src="caption.jpg" class="caption-image"></caption>
+	<form>
+		<tr class="row">
+			<td class="column">UserName:</td><td><input type="text" name="uname" class="input"></td></tr>
+
+			<tr class="row"><td class="column">Password: <td><input type="Password" name="pass" class="input">
+			<tr><td><td><input type="submit" value="Register" class="button">
+		
+	</form>
+</table>
+
+
+</div >
+<!-- <div>
+	<img src="logo.png" >
+</div> -->
+<div class="heading1">
+<h5>Welcome to I-NSURED.COM</h5>
+</div>
+	
+<div class="footer">
+&#9400;	
+Copyrights Capgemini India Ltd.
+
+
+</div>
+</body>
+</html>
